@@ -5,12 +5,14 @@
     "favorite": {
       "Streamers": [
         {
-          "img": "",
-          "name": "@peas"
+          "img": "https://github.com/peas.png",
+          "name": "@peas",
+          "url": "https://github.com/peas"
         },
         {
-          "img": "",
-          "name": "@omariosouto"
+          "img": "https://github.com/omariosouto.png",
+          "name": "@omariosouto",
+          "url": "https://github.com/omariosouto"
         }
       ]
     },
@@ -32,9 +34,9 @@
             "thumb": "https://i.ytimg.com/vi/3TNhec8Aazs/hq720.jpg"
           },
           {
-            "title": "Gartic Phone - Não assista a esse NerdPlayer!",
-            "url": "https://www.youtube.com/watch?v=0oJQUs5oRiM",
-            "thumb": "https://img.youtube.com/vi/0oJQUs5oRiM/hqdefault.jpg"
+            "title": "(GRANDE FINAL) OLIMPÍADAS DO VALORANT OFICIAL VALENDO DINHEIRO",
+            "url": "https://www.youtube.com/watch?v=_b9ssyPCPaY",
+            "thumb": "https://i.ytimg.com/vi/_b9ssyPCPaY/hq720.jpg"
           },
           {
             "title": "Netdecking Estraga o Magic?",

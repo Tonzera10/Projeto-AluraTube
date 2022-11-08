@@ -3,7 +3,8 @@ import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
-import banner from "../banner.jpg"
+import banner from "../assets/banner.jpg"
+import { StyledFavorite } from "../src/components/Favorite";
 
 function HomePage() {
   const estilosDaHomePage = { 
@@ -18,7 +19,7 @@ function HomePage() {
         <div style={estilosDaHomePage}>
         <Menu />
         <Header />
-        <TimeLine playlist={config.playlists} />
+        <TimeLine playlist={config.playlists} favorite={config.favorite}/>
         </div>
     </>
   );
@@ -69,30 +70,53 @@ function Header() {
 function TimeLine(props) {
   // console.log("dentro do component", props.playlist)
   const playlistName = Object.keys(props.playlist);
-
+  const favorites = Object.keys(props.favorite);
   return (
-    <StyledTimeline>
-      {playlistName.map((playlistName) => {
-        const videos = props.playlist[playlistName];
-        // console.log(playlistName);
-        // console.log(videos);
-        return (
-          <section>
-            <h2>{playlistName}</h2>
-            <div>
-              {videos.map((video) => {
-                return (
-                  <a href={video.url}>
-                    <img src={video.thumb} />
-                    <span>{video.title}</span>
-                  </a>
-                );
-              })}
-            </div>
-          </section>
-        );
-      })}
-    </StyledTimeline>
+    <>
+      <StyledTimeline>
+        {playlistName.map((playlistName) => {
+          const videos = props.playlist[playlistName];
+          // console.log(playlistName);
+          // console.log(videos);
+          return (
+            <section>
+              <h2>{playlistName}</h2>
+              <div>
+                {videos.map((video) => {
+                  return (
+                    <a href={video.url}>
+                      <img src={video.thumb} />
+                      <span>{video.title}</span>
+                    </a>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })}
+      </StyledTimeline>
+      <StyledFavorite>
+        {favorites.map((favorite) => {
+          const streamers = props.favorite[favorites];
+
+          return (
+            <section>
+              <h2>{favorite}</h2>
+              <div>
+                {streamers.map((streamer) => {
+                  return (
+                    <a href={streamer.url}>
+                      <img src={streamer.img}/>
+                      <span>{streamer.name}</span>
+                    </a>
+                  )
+                })}
+              </div>
+            </section>
+          )
+        })}
+      </StyledFavorite>
+    </>
   );
 }
 

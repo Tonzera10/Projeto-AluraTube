@@ -2,22 +2,34 @@
     "name": "Everton Mello (DevTonzera)",
     "job": "Dev FullStack Jr",
     "github": "Tonzera10",
+    "favorite": {
+      "Streamers": [
+        {
+          "img": "",
+          "name": "@peas"
+        },
+        {
+          "img": "",
+          "name": "@omariosouto"
+        }
+      ]
+    },
     "playlists": {
       "jogos": [
           {
-            "title": "Frostpunk - Neve e Steak tartare",
-            "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
-            "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
+            "title": "Os Segredos para Jogar de Omen!",
+            "url": "https://www.youtube.com/watch?v=xbpz8fa-AZo",
+            "thumb": "https://i.ytimg.com/vi/xbpz8fa-AZo/hq720.jpg"
           },
           {
-            "title": "Frostpunk - Neve e Steak tartare",
-            "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg",
-            "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
+            "title": "O TREINO DE MIRA MAIS FORTE QUE JÁ PASSEI! DICAS DE JOGO #3",
+            "url": "https://www.youtube.com/watch?v=C2W6K2EHJfE&list=WL&index=1",
+            "thumb": "https://i.ytimg.com/vi/C2W6K2EHJfE/hqdefault.jpg"
           },
           {
-            "title": "Gas Station Simulator - 8 dias sem dormir!",
-            "url": "https://www.youtube.com/watch?v=R1d0DyRDG_Q",
-            "thumb": "https://img.youtube.com/vi/R1d0DyRDG_Q/hqdefault.jpg"
+            "title": "GOD OF WAR RAGNAROK - KRATOS VS THOR - DUBLADO (PT-BR)",
+            "url": "https://www.youtube.com/watch?v=3TNhec8Aazs",
+            "thumb": "https://i.ytimg.com/vi/3TNhec8Aazs/hq720.jpg"
           },
           {
             "title": "Gartic Phone - Não assista a esse NerdPlayer!",
